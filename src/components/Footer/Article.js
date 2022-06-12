@@ -16,6 +16,7 @@ const ARTICLE = styled.article`
     letter-spacing: var(--h2-ls);
     margin-top: 0;
     margin-bottom: 40px;
+    color: var(--white);
   }
 
   p {
@@ -29,6 +30,7 @@ const ARTICLE = styled.article`
     line-height: 32px;
     letter-spacing: -0.18px;
     margin-top: 40px;
+    color: var(--white);
   }
 
   .role {
@@ -38,7 +40,7 @@ const ARTICLE = styled.article`
   }
 
   @media (min-width: 860px) {
-    width: 17.5em;
+    width: 17.6em;
     text-align: left;
     align-self: center;
   }

@@ -67,8 +67,8 @@ function Footer(props) {
         <p>Copyright - Suite</p>
         <Social>
           <a href="facebook.com"><img src={fb} alt='facebook'/></a>
-          <a href="instagram.com"><img src={ig} alt='instagram'/></a>
           <a href="twitter.com"><img src={tw} alt='twitter'/></a>
+          <a href="instagram.com"><img src={ig} alt='instagram'/></a>
         </Social>
       </div>
     </FOoter>
