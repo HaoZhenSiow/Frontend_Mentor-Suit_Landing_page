@@ -29,7 +29,13 @@ const SECTION = styled.section`
 
 const Curve2 = styled.img`
   width: 49.27px;
+  height: 40px;
   margin: var(--curve2-margin);
+
+  @media (min-width: 860px) {
+    width: 64.05px;
+    height: 52px;
+  }
 `;
 
 function Section(props) {
