@@ -5,7 +5,7 @@ import curve from '../../assets/pattern-curved-line-2.svg';
 import Article from './Article';
 
 
-const SECTION = styled.main`
+const SECTION = styled.section`
   color: var(--white);
   background-color: var(--black);
   text-align: center;
@@ -40,7 +40,7 @@ const Curve2 = styled.img`
 
 function Section(props) {
  return (
-  <SECTION>
+  <SECTION aria-label='it just works'>
       <Jeremy/>
       <Curve2 src={curve} alt="curve" className='curve'/>
       <Article/>
