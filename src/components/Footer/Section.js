@@ -11,13 +11,14 @@ const SECTION = styled.section`
   text-align: center;
   width: var(--section-width);
   height: var(--section-height);
-  padding: var(--container-padding);
+  padding: 0 var(--article-padding-x);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: absolute;
-  left: var(--section-left);
+  left: 50%;
+  transform: translateX(-50%);
   bottom: var(--section-bottom);
 
   @media (min-width: 860px) {

@@ -43,6 +43,7 @@ const GlobalStyle = createGlobalStyle`
   --curve2-margin: 40px 0 37px;
   --article-p-fs: 18px;
   --article-p-lh: 32px;
+  --article-padding-x:${fluid.calc(16, 58, 's', 'px')};
   --article-mt: 0;
   --article-mb: 64px;
 
@@ -98,10 +99,7 @@ const GlobalStyle = createGlobalStyle`
     --section-height: ${fluid.calc(684, 545, 'b', 'px')};
     --section-left: ${fluid.calc(39, 167, 'b', 'px')};
     --section-bottom: ${fluid.calc(176, 199, 'b', 'px')};
-
     --footer-pt: ${fluid.calc(536, 360, 'b', 'px')};
-    --footer-mt: ${fluid.calc(493, 571, 'b', 'px')};
-
 
   }
 }
@@ -114,12 +112,14 @@ const GlobalStyle = createGlobalStyle`
         --jeremy-w: 375px;
         --jeremy-h: 500px;
         --section-height: ${fluid.calc(530, 545, 'b', 'px')};
+        --footer-mt: ${fluid.calc(193, 371, 'b', 'px')};
     }
 }
 
 @media (min-width: 1440px) {
     :root {
         --container-padding: ${fluid.container(16, 165, 16)};
+        --footer-mt: 571px;
     }
 
 }

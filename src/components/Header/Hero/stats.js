@@ -7,7 +7,7 @@ const DIV = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 56px 0;
+  margin: 56px 0 0 0;
 
   p {
     font-size: 16px;
