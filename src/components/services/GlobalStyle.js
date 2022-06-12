@@ -40,7 +40,7 @@ const GlobalStyle = createGlobalStyle`
   --hero-mt: 83.32px;
   --hero-img-w: 100%;
 
-  --curve2-margin: 261px 0 37px;
+  --curve2-margin: 40px 0 37px;
   --article-p-fs: 18px;
   --article-p-lh: 32px;
   --article-mt: 0;
@@ -53,6 +53,8 @@ const GlobalStyle = createGlobalStyle`
 
   --footer-pt: ${fluid.calc(190, 536, 's', 'px')};
   --footer-mt: ${fluid.calc(851, 493, 's', 'px')};
+  --jeremy-w: 100%;
+  --jeremy-h: 221px;
 }
 
 
@@ -104,11 +106,14 @@ const GlobalStyle = createGlobalStyle`
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 860px) {
     :root {
-        --curve2-margin: 0 52.57px 331.85px 30.2px;
-        --article-mt: ${fluid.calc(64, 88, 'b', 'px')};
-        --article-mb: ${fluid.calc(64, 88, 'b', 'px')};
+        --curve2-margin: 0 ${fluid.calc(10, 52.57, 'b', 'px')} ${fluid.calc(390, 331.85, 'b', 'px')} 30.2px;
+        --article-mt: 0;
+        --article-mb: 0;
+        --jeremy-w: 375px;
+        --jeremy-h: 500px;
+        --section-height: ${fluid.calc(530, 545, 'b', 'px')};
     }
 }
 

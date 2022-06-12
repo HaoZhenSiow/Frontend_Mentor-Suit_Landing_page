@@ -9,12 +9,13 @@ import smallWebp from '../../assets/image-jeremy-small.webp';
 import smallWebp2x from '../../assets/image-jeremy-small@2x.webp';
 import blur from '../../assets/pattern-blur.svg';
 import styled from 'styled-components';
-import fluid from '../services/fluid';
 
 const Pic = styled.picture`
   display: inline-block;
   line-height: 0;
   position: relative;
+  width: var(--jeremy-w);
+  height: var(--jeremy-h);
 
   img {
     position: absolute;
@@ -25,16 +26,18 @@ const Pic = styled.picture`
 
   @media (min-width: 768px) {
     background-image: url(${blur});
-    background-size: ${fluid.calc(160, 125, 'b', '%')};
+    background-size: 60%;
     background-repeat: no-repeat;
-    background-position: 50% ${fluid.calc(80, 100, 'b', 'px')};
+    background-position: 50% -90px;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 860px) {
     position: relative;
     bottom: 0;
-    width: 375px;
-    height: 500px;
+
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: 50% 100px;
 
     img {
       position: absolute;
@@ -47,8 +50,8 @@ const Pic = styled.picture`
 function Jeremy(props) {
  return (
   <Pic>
-    <source media="(min-width: 1200px)" srcSet={`${largeWebp2x} 2x, ${largeWebp} 1x`} type="image/webp" />
-    <source media="(min-width: 1200px)" srcSet={`${large2x} 2x, ${large} 1x`} type="image/png" />
+    <source media="(min-width: 860px)" srcSet={`${largeWebp2x} 2x, ${largeWebp} 1x`} type="image/webp" />
+    <source media="(min-width: 860px)" srcSet={`${large2x} 2x, ${large} 1x`} type="image/png" />
     <source srcSet={`${smallWebp2x} 2x, ${smallWebp} 1x`} type="image/webp" />
     <source srcSet={`${small2x} 2x, ${small} 1x`} type="image/png" />
     <img src={small} alt="Jeremy"/>
