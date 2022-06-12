@@ -40,7 +40,7 @@ const ARTICLE = styled.article`
   }
 
   @media (min-width: 860px) {
-    width: 17.6em;
+    width: 18.6em;
     text-align: left;
     align-self: center;
   }
