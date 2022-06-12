@@ -29,17 +29,10 @@ position: relative;
     margin: 33px 0;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 550px) {
     & > div {
       flex-direction: row;
       justify-content: space-between;
-    }
-
-    & > div > p {
-      font-size: 15px;
-      line-height: 32px;
-      letter-spacing: 0.08px;
-      margin: 0;
     }
   }
 `;
