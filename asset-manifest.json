@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Frontend_Mentor-Suite_Landing_page/static/js/main.55ba360b.js",
+    "main.js": "/Frontend_Mentor-Suite_Landing_page/static/js/main.1547f09d.js",
     "static/js/787.f27f515e.chunk.js": "/Frontend_Mentor-Suite_Landing_page/static/js/787.f27f515e.chunk.js",
     "static/media/image-jeremy-large@2x.png": "/Frontend_Mentor-Suite_Landing_page/static/media/image-jeremy-large@2x.3482548eb0e820e5dec6.png",
     "static/media/image-hero-portrait@2x.png": "/Frontend_Mentor-Suite_Landing_page/static/media/image-hero-portrait@2x.ffdc1f877b592c9cfd97.png",
@@ -26,10 +26,10 @@
     "static/media/pattern-blur.svg": "/Frontend_Mentor-Suite_Landing_page/static/media/pattern-blur.b8e22fd07a55b6f74a4ca317665e73f8.svg",
     "static/media/pattern-curved-line-2.svg": "/Frontend_Mentor-Suite_Landing_page/static/media/pattern-curved-line-2.b3e7a600581015c6814002a2b1b5992d.svg",
     "static/media/pattern-curved-line-1.svg": "/Frontend_Mentor-Suite_Landing_page/static/media/pattern-curved-line-1.737baf08aa1b342f22c34fc8ba6387cb.svg",
-    "main.55ba360b.js.map": "/Frontend_Mentor-Suite_Landing_page/static/js/main.55ba360b.js.map",
+    "main.1547f09d.js.map": "/Frontend_Mentor-Suite_Landing_page/static/js/main.1547f09d.js.map",
     "787.f27f515e.chunk.js.map": "/Frontend_Mentor-Suite_Landing_page/static/js/787.f27f515e.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.55ba360b.js"
+    "static/js/main.1547f09d.js"
   ]
 }
