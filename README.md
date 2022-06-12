@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/HaoZhenSiow/Frontend_Mentor-Suit_Landing_page](https://github.com/HaoZhenSiow/Frontend_Mentor-Suit_Landing_page)
-- Live Site URL: [https://HaoZhenSiow.github.io/suite-landing-page](https://HaoZhenSiow.github.io/suite-landing-page)
+- Solution URL: [https://github.com/HaoZhenSiow/Frontend_Mentor-Suit_Landing_page](https://github.com/HaoZhenSiow/Frontend_Mentor-Suite_Landing_page)
+- Live Site URL: [https://HaoZhenSiow.github.io/suite-landing-page](https://HaoZhenSiow.github.io/Frontend_Mentor-Suite_Landing_page)
 
 ## My process
 
