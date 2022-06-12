@@ -31,10 +31,10 @@ function HeroImg(props) {
  return (
   <Fragment>
     <Pic>
-      <source media='(min-width: 768px)' srcSet={`${portrait2xWebp} 2x, ${portraitWebp} 1x`} src={portraitWebp} type="image/webp" />
-      <source media='(min-width: 768px)' srcSet={`${portrait2xPng} 2x, ${portraitPng} 1x`} src={portraitPng} type="image/png" />
-      <source srcSet={`${landscape2xWebp} 2x, ${landscapeWebp} 1x`} src={landscapeWebp} type="image/webp" />
-      <img srcSet={`${landscape2xPng} 2x, ${landscapePng} 1x`} src={landscapePng} type="image/png" alt='hero' />
+      <source media='(min-width: 768px)' srcSet={`${portrait2xWebp} 2x, ${portraitWebp} 1x`} type="image/webp" />
+      <source media='(min-width: 768px)' srcSet={`${portrait2xPng} 2x, ${portraitPng} 1x`} type="image/png" />
+      <source srcSet={`${landscape2xWebp} 2x, ${landscapeWebp} 1x`} type="image/webp" />
+      <img srcSet={`${landscape2xPng} 2x, ${landscapePng} 1x`} src={landscapePng} alt='hero' />
     </Pic>
   </Fragment>
  );
